@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+      font-family: "Noto Serif", serif;
+      background-color: #F5F8FF;
+}
+
+.flower_description_list{
+    margin-top: 20px;
+    position: relative;
+}
+.flower_description_list li{
+    margin-bottom: 20px;
+    color: #4B5563;
+    font-size: 22px;
+    position: relative;
+}
+
+.flower_description_list li::before{
+    content: '';
+    position: absolute;
+    left: -14px;
+    top: 14px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50% !important;
+    background-color: #4B5563;
+}
+
+.trusted-img{
+       position: absolute;
+    top: -110px;
+    right: -66px;
+    width: 250px;
+    height: 250px;
+}
